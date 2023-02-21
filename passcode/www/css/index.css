@@ -1,20 +1,24 @@
 body, html {
-    background-color: rgb(0, 132, 209);
+    background-color: rgb(255, 0, 82);
+}
+
+@font-face {
+    font-family: 'console';
+    src: url('/fonts/inconsolata.regular.ttf')format('ttf');
 }
 
 .code {
     position: absolute;
-    top: 15%;
-    left: 50%;
+    bottom: 0%;
+    left: 15%;
     transform: translate(-50%, -50%);
     width: 200px;
-    height: 200px;
     background: transparent;
     text-align: center;
     font-size: 24pt;
-    line-height: 200px;
     font-weight: 300;
-    color: rgb(0, 68, 107);
+    font-family: 'console';
+    color: white;
 }
 
 .time {
@@ -60,5 +64,13 @@ body, html {
 
 .numbs:hover {
     background-color: white;
-    color:rgb(0, 132, 209);
+    color:rgb(255, 0, 82);
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 30px;
 }

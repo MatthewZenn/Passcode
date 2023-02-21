@@ -31,7 +31,7 @@ function code() {
 function check() {
     if (document.getElementById("timber").innerHTML.length == 4) {
         if (document.getElementById("timber").innerHTML == document.getElementById("code").innerHTML){
-            document.getElementById("timber").style.color = 'orange';
+            document.getElementById("timber").style.color = 'black';
             setTimeout( () => {
                 set();
             }, 1000);
